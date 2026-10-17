@@ -33,3 +33,14 @@ Summary of changes here!
 
 </details>
 
+---
+
+## 🛠️ Resource Packs
+
+<details open>
+<summary>Added (2)</summary>
+
+- AE2 Blackout (Void_Fractal)
+- Faithful 64x (Faithful_Resource_Pack)
+
+</details>
