@@ -14,6 +14,3 @@ When reporting an issue, please follow the templates!
 |<a href="https://www.reddit.com/r/journity"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/Journity on Reddit"  width="200" height="67"></a>|
 |<a href="https://www.curseforge.com/minecraft/modpacks/journity"><img src="https://cf.way2muchnoise.eu/1687961.svg" alt="Journity On CurseForge" width="200" height="67"></a>|
 <br>
-
-#### Modpack:
-+ [![Journity](https://cf.way2muchnoise.eu/1687961.svg "Journity")](https://www.curseforge.com/minecraft/modpacks/journity)
