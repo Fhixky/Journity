@@ -1,0 +1,122 @@
+{
+  "configVersion": 1,
+  "enabled": true,
+  "updateInterval": 5,
+  "autoReconnect": true,
+  "reconnectDelay": 15,
+  "showInMainMenu": true,
+  "afkDetection": true,
+  "afkTimeout": 300,
+  "hideServerIp": false,
+  "hideCoordinates": false,
+  "launcherWarningDismissed": false,
+  "imageUploadsAllowed": true,
+  "activeProfileIndex": 0,
+  "profiles": [
+    {
+      "name": "Main Menu",
+      "contextType": "MAIN_MENU",
+      "contextFilter": "",
+      "priority": 10,
+      "activityName": "",
+      "details": "In the Main Menu",
+      "state": "Minecraft {version}",
+      "timestampMode": "ELAPSED",
+      "showPartySize": false,
+      "largeImageKey": "https://files.catbox.moe/e3slo9.png",
+      "largeImageText": "Minecraft {version}",
+      "smallImageKey": "https://files.catbox.moe/e3slo9.png",
+      "smallImageText": "",
+      "button1Label": "Play The Pack",
+      "button1Url": "https://www.curseforge.com/minecraft/modpacks/journity",
+      "button2Label": "",
+      "button2Url": "",
+      "screenOverrides": {
+        "main_menu": {
+          "details": "On the Title Screen"
+        },
+        "select_server": {
+          "details": "Selecting a Server",
+          "state": "Browsing multiplayer servers"
+        },
+        "select_world": {
+          "details": "Selecting a World",
+          "state": "Browsing singleplayer worlds"
+        },
+        "create_world": {
+          "details": "Creating a New World",
+          "state": "Configuring world settings"
+        },
+        "options": {
+          "details": "In the Options Menu",
+          "state": "Adjusting settings"
+        },
+        "realms": {
+          "details": "Browsing Realms",
+          "state": "Looking for a Realm to join"
+        },
+        "language": {
+          "details": "Changing Language",
+          "state": "In language settings"
+        }
+      }
+    },
+    {
+      "name": "Singleplayer",
+      "contextType": "SINGLEPLAYER",
+      "contextFilter": "",
+      "priority": 20,
+      "activityName": "Journity",
+      "details": "Playing Singleplayer",
+      "state": "{dimension}, {biome}",
+      "timestampMode": "ELAPSED",
+      "showPartySize": false,
+      "largeImageKey": "https://files.catbox.moe/e3slo9.png",
+      "largeImageText": "{world}",
+      "smallImageKey": "https://files.catbox.moe/e3slo9.png",
+      "smallImageText": "",
+      "button1Label": "Play The Pack",
+      "button1Url": "https://www.curseforge.com/minecraft/modpacks/journity",
+      "button2Label": "",
+      "button2Url": ""
+    },
+    {
+      "name": "Multiplayer",
+      "contextType": "MULTIPLAYER",
+      "contextFilter": "",
+      "priority": 20,
+      "activityName": "Journity",
+      "details": "Playing Multiplayer",
+      "state": "{server}",
+      "timestampMode": "ELAPSED",
+      "showPartySize": false,
+      "largeImageKey": "https://files.catbox.moe/e3slo9.png",
+      "largeImageText": "{server}",
+      "smallImageKey": "https://files.catbox.moe/e3slo9.png",
+      "smallImageText": "",
+      "button1Label": "Play The Pack",
+      "button1Url": "https://www.curseforge.com/minecraft/modpacks/journity",
+      "button2Label": "",
+      "button2Url": ""
+    },
+    {
+      "name": "New Server",
+      "contextType": "SPECIFIC_SERVER",
+      "contextFilter": "",
+      "priority": 30,
+      "activityName": "",
+      "details": "Playing on New Server",
+      "state": "{online} / {max_players} players online",
+      "timestampMode": "ELAPSED",
+      "showPartySize": false,
+      "largeImageKey": "minecraftlogo",
+      "largeImageText": "{server}",
+      "smallImageKey": "",
+      "smallImageText": "",
+      "button1Label": "",
+      "button1Url": "",
+      "button2Label": "",
+      "button2Url": ""
+    }
+  ]
+}
